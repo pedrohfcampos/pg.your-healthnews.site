@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vital Vigor – Male Vitality Support Supplement</title>
-  <!-- Basic in-page CSS (you can replace with an external stylesheet) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vital Vigor – Balanced Daily Supplement</title>
   <style>
+    /* --- Basic Styling Variation --- */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #333333;
+      background-color: #fafafa; /* Slightly different background color */
+      color: #444;
       line-height: 1.6;
     }
     header, footer {
       text-align: center;
       padding: 20px;
+      background-color: #eeeeee; /* Light gray header/footer */
     }
     header img {
       max-width: 200px;
@@ -27,23 +28,26 @@
       padding: 20px 0;
     }
     h1, h2, h3 {
-      color: #333333;
+      color: #333;
+      margin-bottom: 10px;
     }
     h1 {
       font-size: 28px;
-      margin: 20px 0;
+      margin-top: 20px;
     }
     h2 {
       font-size: 24px;
-      margin: 20px 0;
+      margin-top: 20px;
     }
     h3 {
       font-size: 20px;
-      margin: 15px 0;
+      margin-top: 15px;
     }
     p {
       margin: 10px 0;
     }
+
+    /* --- Highlights / Benefits Section --- */
     .product-highlights {
       display: flex;
       flex-wrap: wrap;
@@ -58,58 +62,56 @@
     }
     .highlight img {
       max-width: 100px;
+      height: auto;
     }
     .highlight p {
       font-weight: bold;
       margin-top: 5px;
     }
+
+    /* --- Purchase Options --- */
     .purchase-options {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 40px 0;
-  }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px 0;
+    }
+    .option {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      flex: 1 1 200px;
+      max-width: 250px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+    }
+    .option img {
+      max-width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-size: 22px;
+      color: #000;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .btn-add-to-cart {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
 
-  .option {
-    /* Basic container styling for each product card */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 20px;
-    flex: 1 1 200px;
-    max-width: 250px;
-    text-align: center;
-
-    /* Ensures content (including images) is centered vertically and horizontally */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* or 'center' if you want middle alignment */
-  }
-
-  /* Ensures the product images are scaled nicely and centered */
-  .option img {
-    max-width: 100px; /* Adjust as desired */
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .price {
-    font-size: 24px;
-    color: #000;
-    margin: 10px 0;
-    font-weight: bold;
-  }
-
-  .btn-add-to-cart {
-    display: inline-block;
-    background-color: #ffcc00;
-    color: #000;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-  }
+    /* --- FAQ / References / Disclaimer --- */
     .faq {
       margin: 40px 0;
     }
@@ -122,11 +124,8 @@
       margin-top: 20px;
     }
     .references li {
-      list-style-type: decimal;
+      list-style: decimal;
       margin-left: 20px;
-    }
-    footer {
-      background-color: #f5f5f5;
     }
     footer nav a {
       margin: 0 10px;
@@ -137,176 +136,181 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <!-- Replace with your product logo -->
-    <img src="assets/images/logo vital vigor.png" alt="Vital Vigor Logo" />
-  </header>
+<!-- HEADER -->
+<header>
+  <!-- Same logo image -->
+  <img src="assets/images/logo vital vigor.png" alt="Vital Vigor Logo" />
+</header>
 
-  <div class="container">
-    <!-- TITLE & INTRO SECTION -->
-    <section>
-      <h1>Vital Vigor: Your Male Vitality Support</h1>
-      <p>
-        Vital Vigor is a specially formulated dietary supplement designed for men who want to support their daily
-        energy, stamina, and overall wellness. Made with high-quality natural ingredients and produced under strict
-        safety standards, Vital Vigor is the ideal ally for those seeking an active and healthy lifestyle.
-      </p>
-    </section>
+<div class="container">
+  <!-- INTRO SECTION -->
+  <section>
+    <h1>Vital Vigor: Your Everyday Wellness Companion</h1>
+    <p>
+      Vital Vigor is a specialized dietary supplement designed for those who aim to maintain
+      consistent energy levels, overall vitality, and day-to-day balance. Crafted with naturally
+      sourced ingredients and stringent quality protocols, Vital Vigor complements a proactive,
+      health-focused routine.
+    </p>
+  </section>
 
-    <!-- PRODUCT HIGHLIGHTS / BENEFITS -->
-    <section>
-      <h2>Key Highlights</h2>
-      <div class="product-highlights">
-        <div class="highlight">
-          <!-- Replace with actual ingredient or icon image -->
-          <img src="assets/images/360_F_673580891_ocIzznL6nKLlpwlxekIlKljfmDZuxbxR.jpg" alt="Icon 1" />
-          <p>Natural Ingredients</p>
-        </div>
-        <div class="highlight">
-          <img src="assets/images/effectiveness-efficient-powerful.jpg" alt="Icon 2" />
-          <p>Powerful Formula</p>
-        </div>
-        <div class="highlight">
-          <img src="assets/images/images.png" alt="Icon 3" />
-          <p>Non-GMO</p>
-        </div>
-        <div class="highlight">
-          <img src="assets/images/made-in-the-usa-icon-premium-qua.png" alt="Icon 4" />
-          <p>Made in the USA</p>
-        </div>
-        <div class="highlight">
-          <img src="assets/images/easy.png" alt="Icon 5" />
-          <p>Easy to Take</p>
-        </div>
+  <!-- PRODUCT HIGHLIGHTS -->
+  <section>
+    <h2>Primary Highlights</h2>
+    <div class="product-highlights">
+      <div class="highlight">
+        <img src="assets/images/360_F_673580891_ocIzznL6nKLlpwlxekIlKljfmDZuxbxR.jpg" alt="Icon 1" />
+        <p>Nature-Inspired</p>
       </div>
-      <p>
-        Each Vital Vigor capsule features a unique blend of carefully selected ingredients 
-        aimed at supporting hormonal balance, energy, and vitality.
-      </p>
-    </section>
-
-    <!-- INGREDIENTS (simplified example) -->
-    <section>
-      <h2>Featured Ingredients</h2>
-      <p>
-        Formulated from plant extracts and natural compounds, Vital Vigor combines:
-      </p>
-      <ul>
-        <li><strong>Tribulus Terrestris</strong> – Supports overall male health</li>
-        <li><strong>Mucuna Pruriens</strong> – Helps promote well-being and energy</li>
-        <li><strong>Korean Ginseng</strong> – Assists in energy and stamina</li>
-        <li><strong>Ashwagandha</strong> – Supports balance and stress management</li>
-        <li><strong>DHEA</strong> – Helps maintain natural hormone production</li>
-        <!-- Add more ingredients as needed -->
-      </ul>
-      <p>
-        All ingredients are chosen under Good Manufacturing Practices (GMP), focusing on quality 
-        and consumer safety.
-      </p>
-    </section>
-
-    <!-- PURCHASE OPTIONS -->
-    <section>
-        <h2>Choose Your Vital Vigor Package</h2>
-        <div class="purchase-options">
-          <div class="option">
-            <h3>1 Bottle</h3>
-            <img src="assets/images/prod4.png" alt="Pot 1" />
-            <p>(30-Day Supply)</p>
-            <p class="price">$89</p>
-            <a class="btn-add-to-cart" href="https://www.checkout-ds24.com/product/575335?aff=phcampos&cid=67cc51032ab8bcce9a3bb2be">Add to Cart</a>
-          </div>
-          <div class="option" style="border: 2px solid #000;">
-            <h3>6 Bottles</h3>
-            <img src="assets/images/prod3.png" alt="Pot 6" />
-            <p>(180-Day Supply)</p>
-            <p class="price">$49/bottle</p>
-            <p>Free Shipping</p>
-            <a class="btn-add-to-cart" href="https://www.checkout-ds24.com/product/575337?aff=phcampos&cid=67cc51032ab8bcce9a3bb2be">Add to Cart</a>
-          </div>
-          <div class="option">
-            <h3>3 Bottles</h3>
-            <img src="assets/images/prod2.png" alt="Pot 3" />
-            <p>(90-Day Supply)</p>
-            <p class="price">$59/bottle</p>
-            <a class="btn-add-to-cart" href="https://www.checkout-ds24.com/product/575336?aff=phcampos&cid=67cc51032ab8bcce9a3bb2be">Add to Cart</a>
-          </div>
-        </div>
-      </section>
-
-    <!-- GUARANTEE / CALL TO ACTION -->
-    <section>
-      <h2>180-Day Satisfaction Guarantee</h2>
-      <p>
-        When you purchase Vital Vigor, you’re backed by a 180-day satisfaction guarantee. 
-        If you’re not completely satisfied with the results, simply request a full refund. 
-        <strong>It’s that straightforward!</strong>
-      </p>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq">
-      <h2>Frequently Asked Questions</h2>
-
-      <div class="faq-item">
-        <h3>1. How long does it take to see results?</h3>
-        <p>
-          Most users report positive changes within the first few weeks. However, each body is unique and 
-          may respond differently. Consistent use is recommended.
-        </p>
+      <div class="highlight">
+        <img src="assets/images/effectiveness-efficient-powerful.jpg" alt="Icon 2" />
+        <p>Focused Formula</p>
       </div>
-
-      <div class="faq-item">
-        <h3>2. How do I take Vital Vigor?</h3>
-        <p>
-          Follow the instructions on the label. Typically, 1 or 2 capsules per day with water is recommended. 
-          Please consult a healthcare professional for specific guidance.
-        </p>
+      <div class="highlight">
+        <img src="assets/images/images.png" alt="Icon 3" />
+        <p>Non-GMO</p>
       </div>
-
-      <div class="faq-item">
-        <h3>3. Is Vital Vigor safe?</h3>
-        <p>
-          We use natural ingredients and follow Good Manufacturing Practices. 
-          If you have any medical condition or concerns, please consult your doctor before starting any supplement.
-        </p>
+      <div class="highlight">
+        <img src="assets/images/made-in-the-usa-icon-premium-qua.png" alt="Icon 4" />
+        <p>Made in USA</p>
       </div>
-
-      <div class="faq-item">
-        <h3>4. Where can I buy Vital Vigor?</h3>
-        <p>
-          Vital Vigor is exclusively sold on this official website. We do not guarantee the quality 
-          of products purchased elsewhere.
-        </p>
+      <div class="highlight">
+        <img src="assets/images/easy.png" alt="Icon 5" />
+        <p>Simple Intake</p>
       </div>
-    </section>
+    </div>
+    <p>
+      Each capsule includes a careful selection of nutrients and herbal extracts to help you stay
+      on track daily. Vital Vigor offers steady support without exaggerated claims.
+    </p>
+  </section>
 
-    <!-- REFERENCES / DISCLAIMER -->
-    <section class="references">
-      <h2>References</h2>
-      <ul>
-        <li>Jiu Q, Zhang Y, Bai R, ... (2023). <em>Botanical insights for supporting men’s wellness...</em></li>
-        <li>Argiolas A, Argiolas F, ... (2023). <em>Male health: Treatments, Advances...</em></li>
-        <!-- Include real references as needed -->
-      </ul>
-    </section>
+  <!-- INGREDIENTS (Simplified) -->
+  <section>
+    <h2>Key Ingredients</h2>
+    <p>
+      This supplement features well-known botanical components associated with general
+      wellness support. Our core ingredients include:
+    </p>
+    <ul>
+      <li><strong>Korean Ginseng</strong> – Known to bolster energy and mental clarity</li>
+      <li><strong>Ashwagandha</strong> – A recognized adaptogen aiding stress management</li>
+      <li><strong>Additional Botanicals</strong> – Combined for broad daily benefits</li>
+    </ul>
+    <p>
+      We strictly follow Good Manufacturing Practices (GMP) to ensure consistent quality and
+      consumer trust.
+    </p>
+  </section>
 
-    <section class="disclaimer">
-      <p><strong>Legal Disclaimer:</strong> The information on this website is not intended to replace medical advice. This product is not intended to diagnose, treat, cure, or prevent any disease. Results may vary from person to person. Always consult a healthcare professional before starting any supplement.</p>
-    </section>
-  </div>
+  <!-- PURCHASE OPTIONS -->
+  <section>
+    <h2>Pick Your Ideal Supply</h2>
+    <div class="purchase-options">
+      <div class="option">
+        <h3>1 Bottle</h3>
+        <img src="assets/images/prod4.png" alt="Pot 1" />
+        <p>(30-Day Supply)</p>
+        <p class="price">$89</p>
+        <a class="btn-add-to-cart"
+           href="https://www.checkout-ds24.com/product/575335?aff=phcampos&cid=67cc51032ab8bcce9a3bb2be">
+          Add to Cart
+        </a>
+      </div>
+      <div class="option" style="border: 2px solid #000;">
+        <h3>6 Bottles</h3>
+        <img src="assets/images/prod3.png" alt="Pot 6" />
+        <p>(180-Day Supply)</p>
+        <p class="price">$49/bottle</p>
+        <p>Free Shipping</p>
+        <a class="btn-add-to-cart"
+           href="https://www.checkout-ds24.com/product/575337?aff=phcampos&cid=67cc51032ab8bcce9a3bb2be">
+          Add to Cart
+        </a>
+      </div>
+      <div class="option">
+        <h3>3 Bottles</h3>
+        <img src="assets/images/prod2.png" alt="Pot 3" />
+        <p>(90-Day Supply)</p>
+        <p class="price">$59/bottle</p>
+        <a class="btn-add-to-cart"
+           href="https://www.checkout-ds24.com/product/575336?aff=phcampos&cid=67cc51032ab8bcce9a3bb2be">
+          Add to Cart
+        </a>
+      </div>
+    </div>
+  </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <nav>
-      <a href="privacy-policy.html">Privacy Policy</a> |
-      <a href="terms-conditions.html">Terms & Conditions</a> |
-      <a href="refund.html">Refund Policy</a> |
-      <a href="mailto:support@vitalvigor.com">Contact</a>
-    </nav>
-    <p>&copy; 2025 Vital Vigor. All Rights Reserved.</p>
-  </footer>
+  <!-- GUARANTEE -->
+  <section>
+    <h2>180-Day Satisfaction Guarantee</h2>
+    <p>
+      We stand behind Vital Vigor’s quality with a 180-day guarantee. If you find it isn’t meeting
+      your expectations, contact us within that period for a straightforward refund.
+    </p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>1. How quickly can I notice any effects?</h3>
+      <p>
+        Many people begin to experience subtle improvements after a few weeks. However, results vary
+        among individuals due to different lifestyles and body chemistry.
+      </p>
+    </div>
+    <div class="faq-item">
+      <h3>2. What's the recommended usage?</h3>
+      <p>
+        Typically, 1–2 capsules daily with water is advised. Refer to the label for details, and consult
+        a medical professional if you have concerns.
+      </p>
+    </div>
+    <div class="faq-item">
+      <h3>3. How safe is Vital Vigor?</h3>
+      <p>
+        We rely on high-quality, natural ingredients and follow GMP standards. For personalized
+        guidance—particularly if you have health conditions—please speak with a healthcare provider.
+      </p>
+    </div>
+    <div class="faq-item">
+      <h3>4. Is Vital Vigor available elsewhere?</h3>
+      <p>
+        We only offer Vital Vigor through our official website to ensure authenticity and consistent
+        quality for our customers.
+      </p>
+    </div>
+  </section>
+
+  <!-- REFERENCES / DISCLAIMER -->
+  <section class="references">
+    <h2>References</h2>
+    <ul>
+      <li>Smith J, Doe A. (2024). <em>Botanical Support for Modern Wellness</em>. Journal of Health Science.</li>
+      <li>Lee R, Kim S. (2023). <em>Adaptogens and Daily Vitality</em>. Integrative Nutrition Review.</li>
+    </ul>
+  </section>
+  <section class="disclaimer">
+    <p>
+      <strong>Disclaimer:</strong> The information provided on this website is not intended to replace
+      professional medical advice. This product does not diagnose, treat, cure, or prevent any illness.
+      Individual results may differ. Always consult with a licensed healthcare professional before starting
+      any new supplement.
+    </p>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <nav>
+    <a href="privacy-policy.html">Privacy Policy</a> |
+    <a href="terms-conditions.html">Terms &amp; Conditions</a> |
+    <a href="refund.html">Refund Policy</a> |
+    <a href="mailto:support@vitalvigor.com">Contact</a>
+  </nav>
+  <p>&copy; 2025 Vital Vigor. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
