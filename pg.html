@@ -18,10 +18,16 @@
   
     <script>
     // Obtém os parâmetros da URL
-    const params = new URLSearchParams(window.location.search),
-        clickid = params.get("rtkcid"),
-        rdtk_event_id = params.get("ip");
+    const params = new URLSearchParams(window.location.search);
 
+    // Primeiro tenta 'rtkcid'
+    let clickid = params.get("rtkcid");
+    // Se não encontrar, tenta 'ref_id'
+    if (!clickid) {
+      clickid = params.get("ref_id");
+    }
+
+    const rdtk_event_id = params.get("ip");
     function startOfferTimer() {
         console.log('startOfferTimer iniciado');
         var e, t;
